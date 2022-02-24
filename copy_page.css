@@ -1,0 +1,76 @@
+* {
+margin: 0px;
+}
+#header {
+    min-width: 720px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-items:center;
+    height: 36px;
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding-left: 10.1%;
+    padding-right: 10%;
+}
+#topMenuLeft {
+    flex-grow: 8;
+}
+#topMenuRight {
+    flex-grow: 1;
+    text-align: right;
+}
+#header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+#header sup {
+    color: red;
+    background-color: white;
+    border-radius: 2px;
+    margin: 1px;
+}
+#chipsterHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#logo > img {
+    height: 50%;
+}
+#search input {
+    float:left;
+    border: 0.5px solid gray;
+    box-sizing: border-box;
+    border-radius: 4px 1px 1px 4px;
+}
+#search button {
+    float: left;
+    border: 0.5px solid gray;
+    box-sizing: border-box;
+    border-radius: 1px 4px 4px 1px;
+}
+#chipsterHeaderInfo {
+    display: flex;
+    flex-direction: row;
+}
+.Info {
+    display: flex;
+    align-items: center;
+}
+.tel {
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper {
+    height: 1000px;
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 10%;
+}
