@@ -1,8 +1,11 @@
 * {
 margin: 0px;
 }
+body {
+    font-family: Open Sans, Arial, Helvetica, FreeSans, sans-serif;
+}
 #header {
-    min-width: 720px;
+    min-width: 1140px;
     display: flex;
     flex-wrap: nowrap;
     align-items: stretch;
@@ -36,12 +39,12 @@ margin: 0px;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: aqua;
+    min-width: 1140px;
     margin-left: 10%;
     margin-right: 10%;
 }
 #logo > img {
-    height: 50%;
+    height: 95px;
 }
 #search input {
     float:left;
@@ -55,10 +58,6 @@ margin: 0px;
     box-sizing: border-box;
     border-radius: 1px 4px 4px 1px;
 }
-#chipsterHeaderInfo {
-    display: flex;
-    flex-direction: row;
-}
 .Info {
     display: flex;
     align-items: center;
@@ -67,10 +66,77 @@ margin: 0px;
     display: flex;
     flex-direction: column;
 }
+#smallMenu{
+    display: flex;
+    align-items: center;
 
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+#katalogName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    width: 230px;
+    height: 50px;
+    border-right: 1px solid gainsboro;
+    background-color: #f9f9f6;
+}
+#pop{
+    display: flex;
+}
+#pop img {
+    padding-left: 10px;
+}
+#pop a {
+    padding-left: 5px;
+}
 #wrapper {
-    height: 1000px;
-    background-color: antiquewhite;
+    display: flex;
+    background-color: rgb(255, 255, 255);
     margin-left: 10%;
     margin-right: 10%;
+}
+#sideMenu{
+    width: 230px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid gainsboro;
+}
+#katalog{
+    width: 100%;
+}
+.katalogItem{
+    display: flex;
+    flex-direction: column;
+}
+.katalogItem a {
+    text-decoration: none;
+    padding: 3px;
+    color: rgb(14, 13, 13);
+}
+.katalogItem a:hover {
+    text-decoration: none;
+    padding: 3px;
+    transition: color 0.5s;
+    color: rgb(32, 134, 194);
+}
+.katalogItem h4 {
+    padding: 3px;
+}
+.katalogItem hr {
+    width: 200px;
+}
+#path{
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f6;
+    height: 50px;
+    width: 100%;
+}
+#path p {
+    padding-left: 5px;
 }
